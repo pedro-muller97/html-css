@@ -1,0 +1,43 @@
+/*
+em HTML é id = em CSS é # (Só pode um elemento por página
+em HTML é class = em CSS é . (Pode ter vários elementos por página)
+*/
+
+
+body {
+    background-color: rgb(214, 255, 214);
+}
+
+h1 {
+    color: rgb(5, 119, 11);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+    /*
+    id personalizado
+    */
+}
+
+h2 {
+    color: rgb(5, 119, 11);
+}
+
+.basico {
+    color: limegreen;
+    font-weight: bolder;
+}
+
+.intermediario {
+    color: gold;
+}
+
+.avancado {
+    color: red;
+}
+
+.destaque {
+    background-color: rgba(158, 158, 40, 0.555);
+}
