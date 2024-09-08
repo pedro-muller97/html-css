@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            font-style: italic;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px, solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead, tfoot {
+            background-color: #383838;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--Anatomia para tabelas grandes
+    TABLE
+        CAPTION - LEGENDA
+        THEAD  
+        TR, TD, TH
+        TBODY
+        TR, TD, TH
+        TFOOT
+        TR, TD, TH
+    -->
+<table>
+    <caption>População das unidades Federativas</caption>
+    <thead>
+        <tr>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="imagens/Bandeira_do_estado_de_São_Paulo.svg.png" alt="São Paulo"> São Paulo</td>
+            <td class="num">45 973 190</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_de_Minas_Gerais.svg.png" alt="Minas Gerais"> Minas Gerais</td>
+            <td class="num">21 322 692</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_do_estado_do_Rio_de_Janeiro.svg.png" alt="Rio de Janeiro"> Rio de Janeiro</td>
+            <td class="num">17 219 679</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_da_Bahia.svg.png" alt="Bahia"> Bahia</td>
+            <td class="num">14 850 513</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_do_Paraná.svg.png" alt="Paraná"> Paraná</td>
+            <td class="num">11 824 665</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_do_Rio_Grande_do_Sul.svg.png" alt="Rio Grande do Sul"> Rio Grande do Sul</td>
+            <td class="num">11 229 915</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_de_Pernambuco.svg.png" alt="Pernambuco"> Pernambuco</td>
+            <td class="num">9 539 029</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_do_Ceará.svg.png" alt="Ceará"> Ceará</td>
+            <td class="num">9 233 656</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_do_Pará.svg.png" alt="Pará"> Pará</td>
+            <td class="num">8 664 306</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_de_Santa_Catarina.svg.png" alt="Santa Catarina"> Santa Catarina</td>
+            <td class="num">8 058 447</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Flag_of_Goiás.svg.png" alt="Goiás"> Goiás</td>
+            <td class="num">7 350 483	</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_do_Maranhão.svg.png" alt="Maranhão"> Maranhão</td>
+            <td class="num">7 010 960</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_do_Amazonas.svg.png" alt="Amazonas"> Amazonas</td>
+            <td class="num">4 281 209</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_da_Paraíba.svg.png" alt="Paraíba"> Paraíba</td>
+            <td class="num">4 145 040</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_do_Espírito_Santo.svg.png" alt="Espírito Santo"> Espírito Santo</td>
+            <td class="num">4 102 129</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_de_Mato_Grosso.svg.png" alt="Mato Grosso"> Mato Grosso</td>
+            <td class="num">3 836 399</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_do_Rio_Grande_do_Norte.svg.png" alt="Rio Grande do Norte"> Rio Grande do Norte</td>
+            <td class="num">3 446 071</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_do_Piauí.svg.png" alt="Piauí"> Piauí</td>
+            <td class="num">3 375 646</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_de_Alagoas.svg.png" alt="Alagoas"> Alagoas</td>
+            <td class="num">3 220 104</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_do_Distrito_Federal_(Brasil).svg.png" alt="Distrito Federal"> Distrito Federal</td>
+            <td class="num">2 982 815</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_de_Mato_Grosso_do_Sul.svg.png" alt="Mato Grosso do Sul"> Mato Grosso do Sul</td>
+            <td class="num">2 901 895</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_de_Sergipe.svg.png" alt="Sergipe"> Sergipe</td>
+            <td class="num">2 291 077</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_de_Rondônia.svg.png" alt="Rondônia"> Rondônia</td>
+            <td class="num">1 746 227</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_do_Tocantins.svg.png" alt="Tocantins"> Tocantins</td>
+            <td class="num">1 577 342</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_do_Acre.svg.png" alt="Acre"> Acre</td>
+            <td class="num">880 631</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_do_Amapá.svg.png" alt="Amapá"> Amapá</td>
+            <td class="num">802 837</td>
+        </tr>
+        <tr>
+            <td><img src="imagens/Bandeira_de_Roraima.svg.png" alt="Roraima"> Roraima</td>
+            <td class="num">716 793</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th scope="row">Total de Habitantes:</th>
+            <td class="num"><strong>212 583 720</strong></td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>
