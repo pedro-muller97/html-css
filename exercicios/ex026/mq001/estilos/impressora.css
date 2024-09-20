@@ -3,6 +3,8 @@
     padding: 10px;
 }
 
+/* Estilo para Impressoras */
+
 html {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
@@ -24,5 +26,3 @@ article {
 article::after {
     content: "Esse artigo foi impresso atrvés do site www.cursoemvideo.com";
 }
-
-/* Estilo para Impressoras */
